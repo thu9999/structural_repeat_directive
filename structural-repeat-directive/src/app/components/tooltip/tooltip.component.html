@@ -1,0 +1,8 @@
+<div #tooltip class="tooltip">
+    <div class="content">
+        <span>tooltip works!</span>
+        <span [ngClass]="isAbove ? 'above' : 'below'" class="icon">
+            <mat-icon>{{ isAbove ? 'arrow_drop_down' : 'arrow_drop_up'}}</mat-icon>
+        </span>
+    </div>
+</div>
